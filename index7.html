@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <title>Github & Git Essentials</title>
+    <h1>Github & Git Essentials</h1>
+        <hr>
+        <h3><a href="index.html"> Page 1 - Introduction to HTML</a></h3>
+        <h3><a href="index2.html">Page 2 - Some useful HTML tags </a></h3>
+        <h3><a href="index3.html">Page 3 - Dealing with images on website</a></h3>
+        <h3><a href="index4.html">Page 4 - Dealing with audio files on website</a></h3>
+        <h3><a href="index5.html">Page 5 - How to incorporate Video files onto the website ??</a></h3>
+        <h3><a href="index6.html">Page 6 - adding favicons to the website..</a></h3>
+        <h3><a href="index7.html">Page 7 - GIT and GITHUB essentials for Dummies...<a></h3>
+        <h3><a href="index8.html">Page 8 - Text Formatting in HTML...<a></h3>
+        <h3><a href="index9.html">Page 9 - Span and Div in HTML ?<a></h3>
+        <hr>
+</head>
+<body>
+    <pre>
+        step-1 : always change directory from home (default in powershell) to the folder which you want to use git in.
+        cmd = cd ~/Desktop/foldernamehere
+
+        step-2 : see if the directory is changed to the folder which you want to use by using ls (list items cmd)
+        cmd = ls
+
+        step-3 : create the first version initialise git (sets up git inside the chosen folder)
+        cmd = git init  
+
+        step-4 : check status - shows all the past activities done in that particular folder.
+        cmd = git status 
+
+        <img src="images/image5-git.png" alt="screenshot from powershell">
+
+    </pre>
+
+    
+    
+    <pre>
+        step-5 : git will also tell us whether there are new files in that 
+        chosen folder which are not added / committed to git.
+        
+        <img src="images/image6-git2.png">
+
+        step-6 : git add . 
+        here dot represents the current folder which you are in. 
+
+        therefore it will add the whole folder to git.
+
+        <img src="images/git3.png" >
+
+        step-7 : checking the status again using 
+        cmd = git status 
+
+        output : 
+        <img src="images/git4.png">
+
+        git add filenames lets us pick which files we want next in this specific version
+        
+        step-8 : to create the first version (log) 
+        cmd = git commit -m "type your message here..."
+        version = commit 
+        -m lets us attach a message with the commit 
+
+        step-9 : git log cmd 
+        git log commands shows us all the commits (version) which have been 
+        uploaded / commited up till now. for example I am making new additions to the website every now and then,
+        therefore I have commited 3 times. (made 3 versions)
+
+        <img src="images/git5.png">
+
+
+
+
+    </pre>
+
+    <h2>therefore basic workflow of the git is  <br>
+        1. get into the folder which you want to work with <br>
+        2. add files from that folder to git <br>
+        3. commit them with a message <br>
+        4. done <br>
+        5. repeat the same again and again each time you need to add files and <br>
+        commit them again and again... <br>
+
+
+    </h2>
+
+    <h1><a href="https://www.youtube.com/watch?v=hrTQipWp6co&t=6s" target="_blank">Bro I am using this video to learn about github... <br>just in case you forget...hehe</a></h1>
+    <h1><a href="https://supersimpledev.github.io/references/git-github-reference.pdf" target="_blank">Git and Github cheat sheet for future refernce...</a></h1>
+    <h1><a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw"> This is the HTML and CSS tutorial I've been watching.</a></h1>
+</body>
+
